@@ -1,0 +1,16 @@
+GET http://localhost:3000/api/location
+
+###
+POST http://localhost:3000/api/location
+Content-Type: application/json
+
+{
+    "user_id": "zahidebu",
+    "lat": "kgvkhjjh",
+    "lon": "uygvkj",
+    "comment": "Rangpur",
+    "image": "",
+    "time": ""
+}
+
+###
