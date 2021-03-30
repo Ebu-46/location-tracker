@@ -14,3 +14,31 @@ Content-Type: application/json
 }
 
 ###
+
+POST http://localhost:3000/signup
+Content-Type: application/json
+
+{
+    "name": "zahid hasan",
+    "email": "zahid@gmail.com",
+    "password": "zahid1234"
+}
+
+###
+
+POST http://localhost:3000/checkUser
+Content-Type: application/json
+
+{
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYwNjM1NDM5NjNhNjA0MDVlY2EzNGQ0MyIsImlhdCI6MTYxNzEyMjM2MSwiZXhwIjoxNjE3MzgxNTYxfQ.n4gxJcmosMU4H-XsH9sJaLA9drVxyoZsKN93qzq3Cv0"
+}
+
+
+###
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "email": "zahid@gmail.com",
+    "password": "zahid1234"
+}
